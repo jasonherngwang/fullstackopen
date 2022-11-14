@@ -1,0 +1,3 @@
+use('blogListAppTest');
+// db.users.find({})
+db.blogs.deleteMany({})
