@@ -1,6 +1,6 @@
 # Full Stack Open - Blog List Frontend
 
-Learning features of React and Redux.
+Learning features of React and testing.
 
 ## Structuring a Frontend Project
 - Configuring `.eslintrc` and `.prettierrc` for linting and formatting.
