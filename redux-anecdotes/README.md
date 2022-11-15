@@ -20,4 +20,5 @@ Learning how to implement Redux Toolkit in a basic anecdotes app.
   - No longer needing to manually create action creator functions that return action objects with `type` and `payload`; these are automatically made available in a slice's `actions` property
 
 ## Thunks
-- Thunk action creators which return functions, not objects
+- Thunk action creators return functions, not objects
+- Using thunk action creators to perform asynchronous actions
