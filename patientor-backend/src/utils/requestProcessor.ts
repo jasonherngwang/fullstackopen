@@ -65,24 +65,10 @@ const parseEntries = (entries: unknown): Entry[] => {
   return entries as Entry[];
 };
 
-// const parseNewEntry = (entry: unknown): NewEntry => {
-//   if (!entry) {
-//     throw new Error('Incorrect or missing entry: ' + entry);
-//   }
-//   return entry as NewEntry;
-// };
-
 // Parse Entry data
 const isNumber = (number: unknown): number is number => {
   return typeof number === 'number' || number instanceof Number;
 };
-
-// const parseType = (typeName: unknown): string => {
-//   if (!typeName || !isString(typeName)) {
-//     throw new Error('Incorrect or missing typeName: ' + typeName);
-//   }
-//   return typeName;
-// };
 
 const parseDate = (date: unknown): string => {
   if (!date || !isString(date)) {
